@@ -1,2 +1,3 @@
 FROM ubuntu:latest
-RUN sleep 1000
+RUN Kaniko Running
+CMD ["sh", "-c" , "echo" , "Image Pushed via Kaniko"]
