@@ -1,3 +1,3 @@
 FROM ubuntu:latest
-RUN Kaniko Running
+RUN "echo Kaniko Running"
 CMD ["sh", "-c" , "echo" , "Image Pushed via Kaniko"]
